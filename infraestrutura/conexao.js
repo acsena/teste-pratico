@@ -1,10 +1,10 @@
-const mysql = require('mysql'); //chamando a dependencia do mysql
+const mysql = require('mysql2'); //chamando a dependencia do mysql
 
 const conexao = mysql.createConnection({
-    host: '${{RAILWAY_TCP_PROXY_DOMAIN}}',
+    host: "viaduct.proxy.rlwy.net",
     port: 16812,
     user: "root",
-    password: '{{MYSQL_ROOT_PASSWORD}}',
+    password: '-3BCcCe6bhHcDF-3FGB25Ada6ed5BbD4',
     database: 'railway',
 });
 
